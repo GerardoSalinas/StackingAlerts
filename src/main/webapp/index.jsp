@@ -22,6 +22,7 @@
 		    <div data-column="col2" class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded">
 		      	
 		       <button type="button" class="btn btn-success col-12">Agregar</button>
+		       
 		    </div>
 		    <div data-column="col3" class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded">
 				

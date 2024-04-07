@@ -1,9 +1,8 @@
 /**
- * 
+ * @author gasalinas@unah.hn
  */
 
 let buttons = document.querySelectorAll("button");
-//let closeButton = document.queySelectorAll("#close");
 
 
 for (let i = 0; i<buttons.length; i++){
