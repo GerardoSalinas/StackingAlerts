@@ -10,8 +10,9 @@ class Action {
 		Action.defineCloseButton(closeButton);
 		
 		
-		newAlert.classList.add("alert","alert-primary","alert-dismissible","fade","show");
+		newAlert.classList.add("alert","alert-dismissible","fade","show");
 		newAlert.setAttribute("role","alert");
+		newAlert.style.backgroundColor = "#d8b4fe";
 		let alertNumber = 0;
 		if (window.localStorage.getItem(stackContainer.dataset.column) == null){
 			window.localStorage.setItem(stackContainer.dataset.column,0);
@@ -27,18 +28,17 @@ class Action {
 		stackContainer.insertBefore(newAlert,this);
 		
 	}
-	
-	static removeAlert(){
-		//revisar si la columna esta vacía, si lo está, poner el contador de 
-		//alertas en 0 en el LocalStorage
-		
-	}
+
 	
 	static defineCloseButton(closeButton){
 		closeButton.setAttribute("type","button");
 		closeButton.classList.add("btn-close");
 		closeButton.setAttribute("data-bs-dismiss","alert");
 		closeButton.setAttribute("aria-label","Close");
+		
+	}
+	
+	static defineAlert(newAlert){
 		
 	}
 }

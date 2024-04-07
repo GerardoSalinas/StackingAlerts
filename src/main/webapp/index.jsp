@@ -15,23 +15,17 @@
 		<div class="container text-center">
 		  <div class="row justify-content-evenly">
 		    <div data-column="col1" class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded">
-		       <!-- <div class="alert alert-primary alert-dismissible fade show" role="alert">A simple primary alert—check it out!
-			       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>		       
-		       </div> -->
-		       <button type="button" class="btn btn-success col-12">Success</button>
+		       
+		       <button type="button" class="btn btn-success col-12">Agregar</button>
 		       
 		    </div>
 		    <div data-column="col2" class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded">
-		      	<!-- <div class="alert alert-primary alert-dismissible fade show" role="alert">A simple primary alert—check it out!
-			       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>		       
-		       </div> -->
-		       <button type="button" class="btn btn-success col-12">Success</button>
+		      	
+		       <button type="button" class="btn btn-success col-12">Agregar</button>
 		    </div>
 		    <div data-column="col3" class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded">
-				<!-- <div class="alert alert-primary alert-dismissible fade show" role="alert">A simple primary alert—check it out!
-			       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>		       
-		       </div> -->
-		       <button type="button" class="btn btn-success col-12">Success</button>
+				
+		       <button type="button" class="btn btn-success col-12">Agregar</button>
 				
 		    </div>
 		  </div>

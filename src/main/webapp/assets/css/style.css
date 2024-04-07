@@ -11,10 +11,7 @@ body {
 	height: 100%;
 }
 
-.row {
-	width: 100%;
+button.btn{
+	background-color: #7e22ce;
 }
 
-.col-md-3 {
-	background-color: #f3e8ff;
-}
